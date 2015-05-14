@@ -9,7 +9,7 @@ function [F] = ssafor(Y, L, N, M)
 %   M - number of points to be forecasted
 %   Outputs:
 %   F - sum of the first N reconstructed components plus M points forecasted via N first reconstructed components
-%       (thus F has the dimension of (N + M), where N is the input series length)
+%       (thus F has the dimension of (T + M), where T is the input series length)
 %   
 %   How to use:
 %   First of all get the data series spectrum, i.e. eigenvalues using 'ssaspe' function. Plot the
